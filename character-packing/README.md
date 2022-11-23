@@ -8,7 +8,7 @@ Character packing - SMS, CBS and USSD packing.
 ```
 ## Usage
 ```
-pack:start({PackingType, String}) -> {ok, SpareType, PackedString} | {error, Reason}
+2> pack:start({PackingType, String}) -> {ok, SpareType, PackedString} | {error, Reason}
 ```
 
 PackType: `(sms, cbs, ussd)`
